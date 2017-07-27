@@ -19,7 +19,7 @@
         });
         function testRequestBody(){
             $.ajax({
-                url:"${pageContext.request.contextPath}/json/testRequestBody",//发送请求的url
+                url:"/json/testRequestBody",//发送请求的url
                 dataType:"json", //预期服务器返回的数据类型
                 type:"post",  //请求方式POST或GET
                 contentType:"application/json",//发送信息至服务器时的内容编码格式
